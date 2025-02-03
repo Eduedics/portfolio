@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Noto Sans", serif;;
+}
+body{
+  background: rgba(0,0,0,0.85);
+}
+h1,h4,a,p{
+  color: #fff;
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+.btn{
+  color: #fff;
+  background-color: #000;
+  font-size: 30px;
+  font-weight: 600;
+  border: 1px solid #fff;
+  padding: 10px 20px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-left: 6px;
+}
+.success{
+  background-color: #09af12bd;
+  color: azure;
+}
+.danger{
+  background-color: #a30b0bd8;
+  color: #000;
+}
+.btn:hover{
+  background-color: transparent;
+  color: #fff;
+  transition: 0.03 ease-in;
+}
+.btn:active{
+  background:#097905;
+  color: #fff;
+  transition: 0.03 ease-in;
+}
+@media screen and (max-width:640px) {
+  .btn{
+    font-size: 16px;
+    padding: 3px 6px;
+  }
+}
